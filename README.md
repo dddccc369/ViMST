@@ -9,7 +9,7 @@ Investigating spatial transcriptomics microenvironments is crucial for unravelin
 •	10x Visium human breast cancer dataset, 10x Visium human lymph node dataset, 10x Visium anterior and posterior mouse brain dataset, 10x Visium mouse kidney dataset, and 10x Visium mouse brain dataset: https://www.10xgenomics.com/datasets/; 
 •	10x Visium human liver cancer dataset:  https://db.cngb.org/stomics/datasets/STDS0000219/summary/
 •	10x Visium human pancreatic cancer dataset: https://data.humantumoratlas.org/;
-•	Stereo-seq mouse olfactory bulb dataset: https://github.com/JinmiaoChenLab/SEDR_analyses;
+•	Stereo-seq mouse olfactory bulb dataset: https://github.com/JinmiaoChenLab/SEDR_analyses.
 
 ## Setup
 •   `pip install -r requirement.txt`
