@@ -11,6 +11,8 @@ Investigating spatial transcriptomics microenvironments is crucial for unravelin
 •	10x Visium human pancreatic cancer dataset: https://data.humantumoratlas.org/;
 •	Stereo-seq mouse olfactory bulb dataset: https://github.com/JinmiaoChenLab/SEDR_analyses.
 
+•   All data files are also available for download from Zenodo (https://zenodo.org/records/19995087).
+
 ## Setup
 •   `pip install -r requirement.txt`
 

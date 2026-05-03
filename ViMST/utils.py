@@ -141,8 +141,8 @@ def Leiden_cluster(adata, used_obsm='eval_pred', key_added_pred="leiden", seed=2
 
 def build_args():
     import argparse
-    parser = argparse.ArgumentParser(description="stMask")
-    parser.add_argument("--model_name", type=str, default="stMask")
+    parser = argparse.ArgumentParser(description="ViMST")
+    parser.add_argument("--model_name", type=str, default="ViMST")
     parser.add_argument("--seed", type=int, default=2023)
     parser.add_argument("--tissue_name", type=str, default="151507")
 

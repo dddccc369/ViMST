@@ -1,2 +1,5 @@
-1. In our paper, the Vision Transformer should be executed initially to obtain the image-gene expression co-representation. Following this, the resulting output features should be concatenated with the spot embeddings. Finally, run the TransformerST to achieve clustering and enhanced gene expression analysis.
-2. Execute the command python3 main.py to train and evaluate the model, save the resultant output features, and subsequently concatenate these features with the spot embeddings.
+1. In our paper, the Vision Transformer should first be executed to obtain image‑based predicted gene expression features. Subsequently, the resulting output image features are saved and then fed into the subsequent main model. Finally, ViMST is run to achieve clustering and enhanced gene expression analysis.
+
+2. The command `python3 main.py` is executed to train and evaluate the model, save the generated output features, and subsequently input these features into the subsequent main ViMST model for joint analysis.
+
+3. During the training process of the ViT model, a loss is computed between the image‑predicted gene expression and the actual gene expression, thereby enhancing the model’s predictive capability.
